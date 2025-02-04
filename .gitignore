@@ -1,0 +1,11 @@
+# Ignore system & RStudio-specific files
+.Rhistory
+.RData
+.Rproj.user/
+
+# Ignore temporary & log files
+*.log
+*.tmp
+
+# Keep data files but ignore extra processing artifacts
+!data/
