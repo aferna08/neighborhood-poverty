@@ -20,17 +20,20 @@ I have included the necessary data in .zip format due to the large files sizes, 
 
 1.  **Clone the Repository**: Clone the repository, ensuring that Git LFS is installed.
 
-    a)  You likely will be unable to open the .zip files if cloning from a web browser. Instead, run `git clone https://github.com/aferna08/neighborhood-poverty destination_dir`, inputting your own desired directory folder, after installing Git LFS and everything will run smoothly.
-    
-    b)  Alternatively, you can access the data directly from [NHGIS](https://www.nhgis.org/) and place it in the data folder with the correct file names. Below are the necessary data files for each .zip file:
-    
-        i. `tract_shp.zip` contains Census Tract GIS files from 1970, 1980, 1990, 2000, \2012, and 2022.
-        
-        ii. `cbsa_shp.zip` contains Core Based Statistical Area GIS files from 2022.
-        
-        iii. `tract_data.zip` is a combined file of tract-level time series tables for nativity, \persons below poverty level, and persons for whom poverty status is determined. This refers to tables AT5, CL6, and AX6, respectively.
-        
-        iv. `cbsa_data.zip` contains CBSA-level population data for the 2018-2022 5-year ACS. \This refers to table B01003.
+    a)  You likely will be unable to open the .zip files if cloning from a web browser. Instead, run:
+
+        ```         
+        git clone https://github.com/aferna08/neighborhood-poverty destination_dir
+        ```
+
+        Input your own desired directory folder after installing Git LFS, and everything will run smoothly.
+
+    b)  Alternatively, you can access the data directly from [NHGIS](https://www.nhgis.org/) and place it in the `data/` folder with the correct file names. Below are the necessary data files for each `.zip` file:
+
+        -   **`tract_shp.zip`**: Contains Census Tract GIS files from 1970, 1980, 1990, 2000, 2012, and 2022.
+        -   **`cbsa_shp.zip`**: Contains Core Based Statistical Area GIS files from 2022.
+        -   **`tract_data.zip`**: A combined file of tract-level time series tables for nativity, persons below poverty level, and persons for whom poverty status is determined. This refers to tables AT5, CL6, and AX6, respectively.
+        -   **`cbsa_data.zip`**: Contains CBSA-level population data for the 2018-2022 5-year ACS. This refers to table B01003.
 
 2.  **Install Dependencies**: Scripts in the project use the [pacman](https://cran.r-project.org/web/packages/pacman/index.html) package (`install.packages("pacman")`) to install and load other required packages.
 
