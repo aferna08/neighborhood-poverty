@@ -20,11 +20,7 @@ I have included the necessary data in .zip format due to the large files sizes, 
 
 1.  **Clone the Repository**: Clone the repository, ensuring that Git LFS is installed.
 
-    a)  You likely will be unable to open the .zip files if cloning from a web browser. Instead, run:
-
-        `git clone https://github.com/aferna08/neighborhood-poverty destination_dir`
-
-        Input your own desired directory folder after installing Git LFS, and everything will run smoothly.
+    a)  You likely will be unable to open the .zip files if cloning from a web browser. Instead, run: `git clone https://github.com/aferna08/neighborhood-poverty destination_dir`. Input your own desired directory folder after installing Git LFS, and everything will run smoothly.
 
     b)  Alternatively, you can access the data directly from [NHGIS](https://www.nhgis.org/) and place it in the `data/` folder with the correct file names. Below are the necessary data files for each `.zip` file:
 
