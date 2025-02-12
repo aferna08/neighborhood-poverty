@@ -28,7 +28,7 @@ I have included the necessary data in .zip format due to the large files sizes, 
     
     -   **cbsa_shp.zip**: Contains Core Based Statistical Area GIS files from 2022.
     
-    -   **`tract_data.zip**: A combined file of tract-level time series tables for nativity, persons below poverty level, and persons for whom poverty status is determined. This refers to tables AT5, CL6, and AX6, respectively.
+    -   **tract_data.zip**: A combined file of tract-level time series tables for nativity, persons below poverty level, and persons for whom poverty status is determined. This refers to tables AT5, CL6, and AX6, respectively.
     
     -   **cbsa_data.zip**: Contains CBSA-level population data for the 2018-2022 5-year ACS. This refers to table B01003.
 
