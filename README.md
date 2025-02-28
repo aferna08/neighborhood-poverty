@@ -1,6 +1,6 @@
 # Replication Package for Neighborhood Poverty by Nativity in the Top 100 Metro Areas (1970-2020)
 
-This repository contains the replication package to create a visual analysis of neighborhood poverty rates by nativity within the top 100 CBSAs. The analysis shows what percent of foreign-born and US-born residents live in census tracts with different poverty rates over time. Please read the supplemental file for further methodological information, especially how geographic comparability is achieved.
+This repository contains the replication package to create a visual analysis of neighborhood poverty rates by nativity within the top 100 CBSAs, as published in [Socius](https://doi.org/10.1177/23780231251322362). The analysis shows what percent of foreign-born and US-born residents live in census tracts with different poverty rates over time. Please read the supplemental file for further methodological information, especially how geographic comparability is achieved.
 
 I have included the necessary data in .zip format due to the large files sizes, but you will need to install Git LFS to download it.
 
@@ -8,7 +8,7 @@ I have included the necessary data in .zip format due to the large files sizes, 
 
 ## Repository Structure
 
--   **`data/`**: Contains zipfiles of data necessary for the analysis. This includes shapefiles and population characterstics for census tracts and CBSAs.
+-   **`data/`**: Contains zipfiles of data necessary for the analysis. This includes shapefiles and population characteristics for census tracts and CBSAs.
 -   **`output/`**: Where generated plots are stored.
 -   **`scripts/`**: R Scripts to clean the data and create the visualizations.
     -   "01_clean_data.R" joins, cleans, and processes the census data.
@@ -22,7 +22,7 @@ I have included the necessary data in .zip format due to the large files sizes, 
 
     a)  You likely will be unable to open the .zip files if cloning from a web browser. Instead, run: `git clone https://github.com/aferna08/neighborhood-poverty destination_dir`. Input your own desired directory folder after installing Git LFS, and everything will run smoothly.
 
-    b)  Alternatively, you can access the data directly from [NHGIS](https://www.nhgis.org/) and place it in the `data/` folder with the correct file names. Below are the necessary data files for each `.zip` file:
+    b)  Alternatively, you can access the data directly from [NHGIS](https://www.nhgis.org/) and place it in the `data/` folder with the correct file names. Below are the necessary data files for each .zip file:
 
     -   **tract_shp.zip**: Contains Census Tract GIS files from 1970, 1980, 1990, 2000, 2012, and 2022.
     
@@ -48,4 +48,4 @@ All data necessary for this project comes from the hard work of the NHGIS team. 
 
 ## Contact
 
-If you have questions or would like to request the full working paper, please contact [aaronfernandez\@g.harvard.edu](mailto:aaronfernandez@g.harvard.edu).
+If you have questions, please contact [aaronfernandez\@g.harvard.edu](mailto:aaronfernandez@g.harvard.edu).
