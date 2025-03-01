@@ -1,6 +1,6 @@
 # Replication Package for Neighborhood Poverty by Nativity in the Top 100 Metro Areas (1970-2020)
 
-This repository contains the replication package to create a visual analysis of neighborhood poverty rates by nativity within the top 100 CBSAs, as published in [Socius](https://doi.org/10.1177/23780231251322362). The analysis shows what percent of foreign-born and US-born residents live in census tracts with different poverty rates over time. Please read the supplemental file for further methodological information, especially how geographic comparability is achieved.
+This repository contains the replication package to create a visual analysis of neighborhood poverty rates by nativity within the top 100 CBSAs, as published in [Socius](https://doi.org/10.1177/23780231251322362). The analysis shows what percent of foreign-born and US-born residents live in census tracts with different poverty rates over time. Please read the [supplemental file](https://journals.sagepub.com/doi/suppl/10.1177/23780231251322362/suppl_file/sj-docx-1-srd-10.1177_23780231251322362.docx) for further methodological information, especially how geographic comparability is achieved.
 
 I have included the necessary data in .zip format due to the large files sizes, but you will need to install Git LFS to download it.
 
